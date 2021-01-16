@@ -4,6 +4,7 @@ html, body{
     font-family: 'Roboto', sans-serif;
     font-size: large;
 }
+
 .navbar{
     background: linear-gradient(to right, #f2f2f2, #fbfbfb);
     font-size: 1.1rem;
@@ -13,10 +14,19 @@ html, body{
 
 .nav-item{
     padding: .4rem;
+
 }
-/* .img-profile{
-  max-width: 100rem!important;
-} */
+.navbar-brand h4{
+  text-transform: uppercase;
+
+}
+
+.navbar-brand h4:hover{
+  font-style: initial;
+  animation: text 3s 1;
+
+}
+
 #jumbotron{
 	background-image: url('../image/subcribe.jpeg');
 	background-attachment: fixed;
@@ -38,3 +48,37 @@ html, body{
   .form-group{
     transform: translateY(-20%);
   }
+.footer{
+  background-color:rgb(44, 44, 56)!important;
+}
+.about-h3{
+  font-size: 5rem;
+  text-transform: uppercase;
+}
+.anchor {
+  text-align: center;
+}
+
+#about-p{
+  font-size: 1.2rem;
+}
+.header h3{
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+@keyframes text{
+  0%{
+    color: black;
+    
+  }
+  30%{
+    letter-spacing: 3px;
+    font-style: italic;
+  }
+  85%{
+    letter-spacing: 1px;
+    font-style: italic;
+
+  }
+
+}
