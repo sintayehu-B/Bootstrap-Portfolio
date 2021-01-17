@@ -14,10 +14,12 @@ html, body{
 
 .nav-item{
     padding: .4rem;
+    display: block!important;
 
 }
 .navbar-brand h4{
   text-transform: uppercase;
+  
 
 }
 
@@ -27,11 +29,14 @@ html, body{
 
 }
 
+
 #jumbotron{
 	background-image: url('../image/subcribe.jpeg');
 	background-attachment: fixed;
 	background-position: center;
-	background-size: cover;
+  background-size: cover;
+  border-radius: 23px;
+ 
   }
   #footer{
 	font-size: 1.1rem;
@@ -84,4 +89,9 @@ html, body{
 
   }
 
+}
+@media (max-width:768px){
+  .navbar-nav{
+      align-items: flex-end;
+  }
 }
