@@ -4,6 +4,75 @@ html, body{
     font-family: 'Roboto', sans-serif;
     font-size: large;
 }
+.banner{ 
+  position: relative; 
+  width: 100%;
+
+}
+.banner{ 
+  position: relative; 
+  width: 100%;
+
+}
+.banner img{
+  width: 100%;
+  
+}
+.banner h3{
+  position: absolute;
+  color: #fff;
+  text-transform: uppercase;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 0 2px 20px #000;
+  font-size: 70px;
+}
+.content{
+  background: #fff;
+  color: #000;
+  height: 450px;
+  padding-top: 130px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+
+}
+.content h2{
+  font-size: 55px;
+  color: #000fff;
+  text-transform: uppercase;
+  margin:0;
+
+  margin-bottom: 30px;
+  
+}
+.content p{
+  padding:0 180px;
+  line-height: 2;
+}
+.content::before{
+  position: absolute;
+  content:'';
+  width: 60%;
+  height: 130px;
+  top: -50px;
+  left: 0;
+
+  background: #fff;
+  transform: skewY(6deg);
+}
+.content::after{
+  position: absolute;
+  content:'';
+  width: 60%;
+  height: 130px;
+  top: -50px;
+  
+  right: 0;
+  background: #fff;
+  transform: skewY(-6deg);
+}
 
 .navbar{
     background: linear-gradient(to right, #f2f2f2, #fbfbfb);
