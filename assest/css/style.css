@@ -31,26 +31,14 @@ html, body{
 .content{
   background: #fff;
   color: #000;
-  height: 450px;
+  height: 20px;
   padding-top: 130px;
   position: relative;
-  text-align: center;
-  width: 100%;
-
-}
-.content h2{
-  font-size: 55px;
-  color: #000fff;
-  text-transform: uppercase;
-  margin:0;
-
-  margin-bottom: 30px;
   
+  
+
 }
-.content p{
-  padding:0 180px;
-  line-height: 2;
-}
+
 .content::before{
   position: absolute;
   content:'';
@@ -58,7 +46,6 @@ html, body{
   height: 130px;
   top: -50px;
   left: 0;
-
   background: #fff;
   transform: skewY(6deg);
 }
@@ -68,7 +55,6 @@ html, body{
   width: 60%;
   height: 130px;
   top: -50px;
-  
   right: 0;
   background: #fff;
   transform: skewY(-6deg);
@@ -79,6 +65,9 @@ html, body{
     font-size: 1.1rem;
     text-transform: uppercase;
     letter-spacing: .1rem;
+}
+.navbar h4{
+  margin-left: 200px;
 }
 
 .nav-item{
@@ -121,10 +110,14 @@ html, body{
   }
   .form-group{
     transform: translateY(-20%);
+    
   }
 .footer{
   background-color:rgb(44, 44, 56)!important;
+  position: relative;
+
 }
+
 .about-h3{
   font-size: 5rem;
   text-transform: uppercase;
