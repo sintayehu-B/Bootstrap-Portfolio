@@ -9,20 +9,15 @@ html, body{
   width: 100%;
 
 }
-.banner{ 
-  position: relative; 
-  width: 100%;
-
-}
 .banner img{
   width: 100%;
   
 }
-.banner h3{
+.banner h5{
   position: absolute;
   color: #fff;
   text-transform: uppercase;
-  top: 50%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-shadow: 0 2px 20px #000;
@@ -38,6 +33,7 @@ html, body{
   
 
 }
+
 
 .content::before{
   position: absolute;
@@ -67,7 +63,7 @@ html, body{
     letter-spacing: .1rem;
 }
 .navbar h4{
-  margin-left: 200px;
+  margin-left: 100px;
 }
 
 .nav-item{
@@ -82,36 +78,20 @@ html, body{
 }
 
 .navbar-brand h4:hover{
-  font-style: initial;
-  animation: text 3s 1;
+  font-style: italic;
+  animation: text 1s 1;
 
+}
+nav-item ul{
+  top:50px;
 }
 
 
-#jumbotron{
-	background-image: url('../image/subcribe.jpeg');
-	background-attachment: fixed;
-	background-position: center;
-  background-size: cover;
-  border-radius: 23px;
- 
-  }
-  #footer{
-	font-size: 1.1rem;
-	text-transform: uppercase;
-	letter-spacing: .1rem;
-  }
-  #footer ul li{
-	list-style: none;
-  display: inline;
-  letter-spacing: 2rem;
-  font-size: 1.1rem;
 
-  }
-  .form-group{
+.form-group{
     transform: translateY(-20%);
     
-  }
+}
 .footer{
   background-color:rgb(44, 44, 56)!important;
   position: relative;
@@ -126,9 +106,7 @@ html, body{
   text-align: center;
 }
 
-#about-p{
-  font-size: 1.2rem;
-}
+
 .about-p{
   font-size: 1.2rem;
 }
@@ -136,13 +114,37 @@ html, body{
   font-size: 2rem;
   text-transform: uppercase;
 }
+
+#jumbotron{
+	background-image: url('../image/kellen-riggin-bBGpZ63zNi0-unsplash.jpg');
+	background-attachment: fixed;
+	background-position: center;
+  background-size: cover;
+  border-radius: 23px;
+
+  }
+  #footer{
+	font-size: 1.1rem;
+	text-transform: uppercase;
+	letter-spacing: .1rem;
+  }
+  #footer ul li{
+	list-style: none;
+  display: inline;
+  letter-spacing: 2rem;
+  font-size: 1.1rem;
+
+  }
+  #about-p{
+    font-size: 1.2rem;
+  }
 @keyframes text{
   0%{
     color: black;
     
   }
   30%{
-    letter-spacing: 3px;
+    letter-spacing: 1px;
     font-style: italic;
   }
   85%{
@@ -153,6 +155,12 @@ html, body{
 
 }
 @media (max-width:768px){
+    .navbar h4{
+      margin-left: 20px;
+    }
+    .banner h5{
+      font-size: 45px;
+    }
   .navbar-nav{
       align-items: flex-end;
   }
