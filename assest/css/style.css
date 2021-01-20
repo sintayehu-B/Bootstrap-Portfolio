@@ -24,8 +24,6 @@ html, body{
   font-size: 70px;
 }
 .content{
-  background: #fff;
-  color: #000;
   height: 20px;
   padding-top: 130px;
   position: relative;
@@ -42,7 +40,7 @@ html, body{
   height: 130px;
   top: -50px;
   left: 0;
-  background: #fff;
+  background:#fff;
   transform: skewY(6deg);
 }
 .content::after{
@@ -54,6 +52,38 @@ html, body{
   right: 0;
   background: #fff;
   transform: skewY(-6deg);
+}
+.content-footer{
+  background-color: rgb(44, 44, 56) ;
+  margin-top: 200px;
+  padding-top: 0;
+  position: relative;
+  
+  
+
+}
+
+
+.content-footer::before{
+  position: absolute;
+  content:'';
+  width: 60%;
+  height: 130px;
+  top: -50px;
+  left: 0;
+  background-color: rgb(44, 44, 56) ;
+  transform: skewY(6deg);
+  
+}
+.content-footer::after{
+  position: absolute;
+  content:'';
+  width: 60%;
+  height: 130px;
+  top: -50px;
+  right: 0;
+  background-color: rgb(44, 44, 56) ;
+  transform: skewY(-6deg)
 }
 
 .navbar{
@@ -89,7 +119,7 @@ nav-item ul{
 
 
 .form-group{
-    transform: translateY(-20%);
+    transform: translateY(-10%);
     
 }
 .footer{
@@ -97,6 +127,7 @@ nav-item ul{
   position: relative;
 
 }
+
 
 .about-h3{
   font-size: 5rem;
@@ -114,6 +145,9 @@ nav-item ul{
   font-size: 2rem;
   text-transform: uppercase;
 }
+.img-profile img{
+  border-radius: 5%;
+}
 
 #jumbotron{
 	background-image: url('../image/kellen-riggin-bBGpZ63zNi0-unsplash.jpg');
@@ -121,6 +155,7 @@ nav-item ul{
 	background-position: center;
   background-size: cover;
   border-radius: 23px;
+  
 
   }
   #footer{
@@ -138,6 +173,7 @@ nav-item ul{
   #about-p{
     font-size: 1.2rem;
   }
+
 @keyframes text{
   0%{
     color: black;
